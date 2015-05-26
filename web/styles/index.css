@@ -1,0 +1,49 @@
+*{
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+html{
+    width: 98%;
+}
+
+body{
+    width:  98%;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+#manual{
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    width: 20%;
+}
+
+#container{
+    width: 70%;
+    margin-left: 15%;
+    padding-left: 15%;
+}
+
+.cards{
+    width: 100px;
+    height: 100px;
+    margin: 1%;
+    float: left;
+}
+
+#card7, #card13, #card19, #card25, #card31{
+    clear: left;
+}
